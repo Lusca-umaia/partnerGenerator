@@ -1,0 +1,77 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Parceiro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/style_global.css">
+    <link rel="stylesheet" href="../styles/style_home.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="box">
+            <div class="headerBox">
+                <div class="leftGroup">
+                    <span>Olá, caro usuário!</span>
+                </div>
+                <div class="rightGroup">
+                    <i class="bi bi-globe2"></i>
+                    <div>
+                        <i class="bi bi-person"></i>
+                    </div>
+                </div>
+            </div>
+            <img src="../assets/logo-mirante.png" style="width: 80%; margin: 20px auto; display: block;" alt="">
+            <h1 id="title">Bem-vindo ao <br><span id="spanTitle">Gerador de Parceiro</span></h1>
+            <div class="formBox">
+                <form id="form">
+                    <h2>Escolha o tipo de parceiro que deseja gerar:</h2>
+                    <div class="groupCheckbox">
+                        <label class="labelCheckbox" for="pfSimples">
+                            <input type="radio" id="pfSimples" name="partner"
+                                value="pfSimples"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Pessoa Física Simples
+                        </label>
+                        <label class="labelCheckbox" for="pfCompleto">
+                            <input type="radio" id="pfCompleto" name="partner" value="pfCompleto"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Pessoa Física Completa
+                        </label>
+                    </div>
+                    <div class="groupCheckbox">
+                        <label class="labelCheckbox" for="pjSimples">
+                            <input type="radio" id="pjSimples" name="partner"
+                                value="pjSimples"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Pessoa Jurídica Simples
+                        </label>
+                        <label class="labelCheckbox" for="pjCompleto">
+                            <input type="radio" id="pjCompleto" name="partner" value="pjCompleto"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Pessoa Jurídica Completa
+                        </label>
+                    </div>
+                    <div>
+                        <button class="mt15" type="submit" id="tes">Gerar parceiro</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../js/logic.js"></script>
+</body>
+
+</html>
