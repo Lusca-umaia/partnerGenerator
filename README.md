@@ -23,3 +23,5 @@ Esta é uma extensão do Google Chrome que permite gerar parceiros de forma auto
 
 ## Tutorial
 
+https://github.com/user-attachments/assets/456003e5-b818-4483-b744-8d0484257f45
+
